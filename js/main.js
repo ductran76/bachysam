@@ -38,8 +38,6 @@
 	});
 	$("#productSlider").owlCarousel({
 		margin:30,
-		pagination:true,
-		navigationText:false,
 		autoPlay:true,
 		loop:true,
 		responsiveClass:true,
@@ -54,7 +52,7 @@
 			},
 			1000:{
 				items:3,
-				nav:true,
+				nav:false,
 				loop:false
 			}
 		}
@@ -78,6 +76,50 @@
 				items:4,
 				nav:true,
 				loop:false
+			}
+		}
+	});
+	$("#whyChooseSlider").owlCarousel({
+		margin:30,
+		pagination:true,
+		navigationText:false,
+		autoPlay:true,
+		loop:true,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+				nav:true
+			},
+			600:{
+				items:3,
+				nav:false
+			},
+			1000:{
+				items:4,
+				nav:true,
+				loop:false
+			}
+		}
+	});
+	$("#footNewsSlider").owlCarousel({
+		margin:30,
+		autoPlay:true,
+		loop:true,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:1,
+				nav:true
+			},
+			600:{
+				items:2,
+				nav:true
+			},
+			1000:{
+				items:3,
+				nav:true,
+				pagination:true
 			}
 		}
 	});
