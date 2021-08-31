@@ -14,7 +14,8 @@ header {
 .start-header {
   opacity: 1;
   transform: translateY(0);
-  padding: 10px 0 0;
+  padding: 10px 0;
+  box-shadow: 0 4px 8px rgb(205 209 218 / 40%);
   -webkit-transition : all 0.3s ease-out;
   transition : all 0.3s ease-out;
 }
@@ -301,7 +302,6 @@ button.btn-search, button.btn-reset {
   border-radius: 0.5rem;
   position: relative;
   cursor: pointer;
-  /*margin: 0 15px;*/
 }
 .productImages {
   overflow: hidden;
@@ -343,8 +343,13 @@ button.btn-search, button.btn-reset {
   font-style: normal;
   font-weight: bold;
   line-height: 20px;
+  margin-top: 5px;
+  padding: 3px 20px;
   color: #da3032;
   margin-bottom: 0;
+  border: 1px solid;
+  border-radius: 1rem;
+  display: inline-block;
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
   position: absolute;
@@ -473,6 +478,91 @@ h3.titleFoot {
   margin-bottom: 5px;
   font-size: 1.3rem;
 }
+.footNewsName h3 a:hover, .moreProduct a:hover {
+  color: #e69545;
+}
+.listProductItem {
+  margin-top: 30px;
+}
+h3.titleProductList {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #29662b;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.moreProduct a {
+  color: #29662b;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.listProductItem .product-item {
+  border: 0;
+}
+.listProductItem .product-item h3 {
+  font-size: inherit;
+}
+.listProductItem .productInfo {
+  padding: 1rem 0.5rem 0;
+}
+.subpages {
+  margin-bottom: 120px;
+}
+button.btnFilter {
+  border: 0;
+  background: #29662b;
+  color: #fff;
+}
+.gridProduct .product-item {
+  margin-bottom: 30px;
+  border: 1px solid rgb(41 102 43 / 46%);
+}
+.gridProduct .productInfo {
+  padding: 1rem 0.5rem;
+}
+.paging ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+}
+.paging ul li {
+  list-style: none;
+  line-height: 50px;
+  margin: 0 5px;
+}
+.paging ul li.pageNumber {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.paging ul li a {
+  display: block;
+  text-decoration: none;
+  color: #023602;
+  font-weight: 600;
+  border-radius: 50%;
+}
+.paging ul li.pageNumber:hover a,
+.paging ul li.pageNumber.active a {
+  background: #023602;
+  color: #fff;
+}
+.paging ul li:first-child {
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.paging ul li:last-child {
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+
+
 
 
 
@@ -578,5 +668,25 @@ h3.titleFoot {
   .infoAbout {
     padding: 0 0 30px;
     letter-spacing:0;
+  }
+  .whyChooseDes {
+    min-height: 130px;
+  }
+  .managerName {
+    min-height: 65px;
+  }
+  #footLogo .listLogo img {
+    max-width: 80px;
+  }
+  .moreProduct {
+    width: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .moreProduct a svg {
+    display: none;
+  }
+  .mobileView .form-group {
+    margin-bottom: 0;
   }
 }

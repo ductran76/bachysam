@@ -88,7 +88,7 @@
 		responsiveClass:true,
 		responsive:{
 			0:{
-				items:1,
+				items:2,
 				nav:true
 			},
 			600:{
@@ -123,5 +123,26 @@
 			}
 		}
 	});
+	$("#listProducSlider-01, #listProducSlider-02, #listProducSlider-03").owlCarousel({		
+		autoPlay:true,
+		nav:true,
+		loop:true,
+		responsiveClass:true,
+		responsive:{
+			0:{
+				items:2,
+				margin:15
+			},
+			600:{
+				items:2,
+				margin:30
+			},
+			1000:{
+				items:4,
+				margin:30
+			}
+		}
+	});
+
 
 })(jQuery); 
