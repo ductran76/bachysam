@@ -13,7 +13,7 @@ header {
 }
 .start-header {
   opacity: 1;
-  transform: translateY(0);
+  /*transform: translateY(0);*/
   padding: 10px 0;
   box-shadow: 0 4px 8px rgb(205 209 218 / 40%);
   -webkit-transition : all 0.3s ease-out;
@@ -873,6 +873,7 @@ button.submitForm:hover {
   .rightCom {
     position: fixed;
     top: 10px;
+    z-index: 1;
     right: 0;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
@@ -885,7 +886,7 @@ button.submitForm:hover {
   }
   header .listLogo {
     position: absolute;
-    top: 10px;
+    top: 5px;
     width: 70%;
     z-index: 1;
     left: 50%;
