@@ -721,9 +721,86 @@ button.btnFilter {
   width: 100%;
   height: auto;
 }
+.contactBanner {
+  margin-top: 15px;
+}
+.contactInfo {
+  margin-top: 60px;
+  color: #29662b;
+}
+.contactInfo h2, .contactInfo h4 {
+  font-weight: 600;
+}
+.contactInfo h4 {
+  margin-top: 20px;
+}
+address {
+  margin-top: 10px;
+}
+address svg {
+  margin-right: 5px;
+}
+address p {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.contactForm input:focus ~ label, .contactForm textarea:focus ~ label, .contactForm input:valid ~ label, .contactForm textarea:valid ~ label {
+  font-size: 0.75em;
+  color: #999;
+  top: 0;
+  -webkit-transition: all 0.225s ease;
+  transition: all 0.225s ease;
+}
+.styled-input {
+  position: relative;
+  margin-bottom: 1rem;
+}
+.contactForm input, .contactForm textarea {
+  border: 1px solid #ccc;
+  height: 45px;
+  padding: 4px 10px;
+  width: 100%;
+  border-radius: 3px;
+}
+.styled-input label {
+  padding: 0 10px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  -webkit-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+  pointer-events: none;
+}
+.contactForm input:focus,
+.contactForm textarea:focus { outline: 0; }
 
-
-
+.contactForm input:focus ~ span,
+.contactForm textarea:focus ~ span {
+  width: 100%;
+  -webkit-transition: all 0.075s ease;
+  transition: all 0.075s ease;
+}
+.contactForm textarea {
+  min-height: 8rem;
+  width: 100%;
+}
+button.submitForm {
+  height: 45px;
+  border: 0;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+  color: #fff;
+  background: #29662b;
+  border-radius: 3px;
+  transition: all 0.3s;
+}
+button.submitForm:hover {
+  background: #e69545;
+}
+.contactForm .form-group {
+  margin-bottom: 0;
+}
 
 
 .go-top {
