@@ -560,10 +560,48 @@ button.btnFilter {
   font-weight: 700;
   font-size: 20px;
 }
-
-
-
-
+.accordion {
+  margin-top: 40px;
+}
+.accordion .card {
+  border: none;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-radius: 0;
+}
+.accordion .card h2 {
+  background: url(https://cdn0.iconfinder.com/data/icons/entypo/91/arrow56-512.png) no-repeat calc(100% - 10px) center;
+  background-size: 20px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.accordion .card h2.collapsed {
+  background-image: url(https://cdn0.iconfinder.com/data/icons/arrows-android-l-lollipop-icon-pack/24/expand2-256.png);
+}
+.accordion .card-body {
+  padding: 0 0 1.25rem;
+}
+#productDetail {
+  margin-top: 60px;
+}
+.productDetail {
+  color: #023602;
+}
+.pDinfo h1.pDName {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.pDinfo h2.pDCost {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #e69545;
+  margin-top: 15px;
+}
+.relateProduct {
+  margin-top: 60px;
+}
 
 
 
