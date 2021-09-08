@@ -37,7 +37,7 @@
 		loop:true
 	});
 	$("#productSlider").owlCarousel({
-		margin:30,
+		margin:15,
 		autoPlay:true,
 		loop:true,
 		responsiveClass:true,
@@ -47,7 +47,7 @@
 				nav:true
 			},
 			600:{
-				items:2,
+				items:1,
 				nav:false
 			},
 			1000:{
@@ -69,7 +69,7 @@
 				nav:true
 			},
 			600:{
-				items:3,
+				items:2,
 				nav:false
 			},
 			1000:{

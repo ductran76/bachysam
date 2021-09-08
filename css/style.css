@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('../fonts/HelveticaNeue.eot');
+  src: url('../fonts/HelveticaNeue.woff') format('woff'), url('../fonts/HelveticaNeue.ttf') format('truetype'), url('../fonts/HelveticaNeue.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-size: 16px;
-  font-family: 'Arsenal', sans-serif;
+  font-size: 14px;
+  font-family: 'HelveticaNeue', sans-serif;
 }
 a {
   transition: all 0.3s;
@@ -80,7 +88,7 @@ header {
 }
 .nav-link{
   color: #e69545 !important;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
   transition: all 200ms linear;
 }
@@ -117,7 +125,7 @@ header {
   transition: all 200ms linear;
 }
 .navbar-nav .nav-link svg {
-  font-size: 25px;
+  font-size: 20px;
 }
 .bg-light {
   background-color: #fff !important;
@@ -268,7 +276,7 @@ button.btn-search, button.btn-reset {
   opacity: 0;
 }
 .sample.fourteen svg {
-  font-size: 30px;
+  font-size: 25px;
   color: #29662b;
 }
 .carousel-control-next, .carousel-control-prev {
@@ -280,18 +288,16 @@ button.btn-search, button.btn-reset {
   color: #29662b;
 }
 .sectionTitle h2 {
-  text-transform: uppercase;
   color: #29662b;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   margin: 0;
   padding: 30px 0 20px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .infoAbout {
  color: #29662b;
- font-size: 1.3rem;
- letter-spacing: 1px;
+ font-size: 1rem;
  line-height: normal;
  text-align: center;
  padding: 0 50px 30px;
@@ -334,7 +340,7 @@ button.btn-search, button.btn-reset {
   color: #29662b;
   line-height: 1.5rem;
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 15px;
 }
 .product-item h3 a:hover {
   color: #e69545;
@@ -389,11 +395,12 @@ button.btn-search, button.btn-reset {
 }
 .managerPosition {
   margin-top: 10px;
+  font-size: 13px;
   text-transform: capitalize;
 }
 .managerName {
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 #listManagerSlider {
   margin-bottom: 60px;
@@ -419,18 +426,21 @@ button.btn-search, button.btn-reset {
 .whyChooseIcon {
   padding: 0 30px;
 }
+.whyChooseIcon img {
+  max-width: 100px;
+  margin: 0 auto;
+}
 .whyChooseReason {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1rem;
   letter-spacing: 1px;
   margin-top: 15px;
   line-height: normal;
 }
 .whyChooseDes {
   margin-top: 15px;
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 12px;
   min-height: 90px;
 }
 footer {
@@ -443,7 +453,7 @@ footer {
   color: #fff;
   text-align: center;
   display: block;
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-top: 10px;
 }
 h3.titleFoot {
@@ -452,10 +462,11 @@ h3.titleFoot {
   position: absolute;
   left: calc(50% - 100px);
   font-weight: 600;
+  font-size: 1.5rem;
   padding: 5px 35px;
-  margin-top: -85px;
+  margin-top: -75px;
   background: #023602;
-  border: 5px solid #fff;
+  border: 3px solid #fff;
   border-radius: 30px;
   box-shadow: 1px 6px 3px rgb(0 0 0 / 29%);
 }
@@ -470,22 +481,27 @@ h3.titleFoot {
 }
 #footInfo h2 {
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   letter-spacing: 2px;
   margin-top: 15px;
 }
 #footInfo p {
   margin-bottom: 5px;
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 .footNewsName h3 a:hover, .moreProduct a:hover {
   color: #e69545;
+}
+#footNewsSlider.owl-carousel .owl-nav button.owl-prev {
+  left: -55px;
+}
+#footNewsSlider.owl-carousel .owl-nav button.owl-next {
+  right: -45px;
 }
 .listProductItem {
   margin-top: 30px;
 }
 h3.titleProductList {
-  text-transform: uppercase;
   font-weight: 600;
   color: #29662b;
   font-size: 1.5rem;
@@ -573,7 +589,7 @@ button.btnFilter {
   background: url(https://cdn0.iconfinder.com/data/icons/entypo/91/arrow56-512.png) no-repeat calc(100% - 10px) center;
   background-size: 20px;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   padding: 10px 0;
 }
@@ -591,12 +607,14 @@ button.btnFilter {
 }
 .pDinfo h1.pDName {
   font-weight: 600;
+  font-size: 2rem;
   letter-spacing: 1px;
 }
 .pDinfo h2.pDCost {
   font-weight: 600;
   letter-spacing: 1px;
   color: #e69545;
+  font-size: 1.5rem;
   margin-top: 15px;
 }
 .relateProduct {
@@ -859,7 +877,7 @@ button.submitForm:hover {
   .nav-item::before {
     position: absolute;
     display: block;
-    top: 23px;
+    top: 20px;
     left: 0;
     width: 11px;
     height: 1px;
@@ -871,7 +889,7 @@ button.submitForm:hover {
   .dropdown-toggle::after {
     position: absolute;
     display: block;
-    top: 18px;
+    top: 15px;
     left: -23px;
     width: 1px;
     height: 11px;
@@ -896,10 +914,10 @@ button.submitForm:hover {
     margin-bottom: 20px !important;
   }
   .rightCom {
-    position: fixed;
-    top: 10px;
+    position: absolute;
+    top: -5px;
     z-index: 1;
-    right: 0;
+    right: -10px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
@@ -921,7 +939,7 @@ button.submitForm:hover {
     padding: 10px 0;
   }
   .sectionTitle h2 {
-    font-size: 2rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
   }
   .infoAbout {
@@ -953,5 +971,35 @@ button.submitForm:hover {
   }
   .avatar img {
     max-width: 200px;
+  }
+  #whyChooseSlider {
+    padding: 0 30px;
+  }
+  #whyChooseSlider.owl-carousel .owl-nav button.owl-next {
+    right: -15px;
+  }
+  #whyChooseSlider.owl-carousel .owl-nav button.owl-prev {
+    left: -15px;
+  }
+  .whyChooseReason {
+    min-height: 80px;
+  }
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    font-size: 3rem;
+  }
+  #footNewsSlider.owl-carousel .owl-nav button.owl-next, #footNewsSlider.owl-carousel .owl-nav button.owl-prev {
+    display: none;
+  }
+  h3.titleProductList {
+    font-size: 1.2rem;
+  }
+  .personalInfo h1, .contactInfo h2 {
+    font-size: 1.5rem;
+  }
+  .personalInfo h4, .contactInfo h4 {
+    font-size: 1rem;
+  }
+  #productDetail .product-item {
+    margin-bottom: 15px;
   }
 }
