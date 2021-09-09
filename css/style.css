@@ -846,6 +846,10 @@ button.submitForm:hover {
 .personalInfo h1, .personalInfo h4 {
   font-weight: 600;
 }
+.mission {
+  color: #29662b;
+  font-size: 1rem;
+}
 .go-top {
   position:fixed;
   bottom: 60px;
@@ -972,13 +976,16 @@ button.submitForm:hover {
   .avatar img {
     max-width: 200px;
   }
-  #whyChooseSlider {
+  .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    top: 40%;
+  }
+  #whyChooseSlider, #listManagerSlider {
     padding: 0 30px;
   }
-  #whyChooseSlider.owl-carousel .owl-nav button.owl-next {
+  #whyChooseSlider.owl-carousel .owl-nav button.owl-next, #listManagerSlider.owl-carousel .owl-nav button.owl-next {
     right: -15px;
   }
-  #whyChooseSlider.owl-carousel .owl-nav button.owl-prev {
+  #whyChooseSlider.owl-carousel .owl-nav button.owl-prev, #listManagerSlider.owl-carousel .owl-nav button.owl-prev {
     left: -15px;
   }
   .whyChooseReason {
@@ -1001,5 +1008,9 @@ button.submitForm:hover {
   }
   #productDetail .product-item {
     margin-bottom: 15px;
+  }
+  .infoAbout {
+    text-align: justify;
+    padding-bottom: 15px;
   }
 }

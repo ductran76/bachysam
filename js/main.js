@@ -66,11 +66,11 @@
 		responsive:{
 			0:{
 				items:2,
-				nav:true
+				nav:true,
 			},
 			600:{
 				items:2,
-				nav:false
+				nav:true
 			},
 			1000:{
 				items:4,
